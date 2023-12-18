@@ -38,7 +38,7 @@ export const Testimonial = () => {
                                      SARAH L.
                                     </h3>
                                     <p className='leading-6 tracking-[1px] text-[#fff]'>
-                                    "I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!"
+                                    &ldquo;I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!&ldquo;
                                     </p>
                                     <div className="flex items-center gap-2 mt-3">
                                         <Image src={Stars} className='w-7 h-7' alt=''/>
@@ -64,7 +64,7 @@ export const Testimonial = () => {
                                      SARAH L.
                                     </h3>
                                     <p className='leading-6 tracking-[1px] text-[#fff]'>
-                                    "I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!"
+                                    &ldquo;I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!&ldquo;
                                     </p>
                                     <div className="flex items-center gap-2 mt-3">
                                         <Image src={Stars} className='w-7 h-7' alt=''/>
@@ -90,7 +90,7 @@ export const Testimonial = () => {
                                      SARAH L.
                                     </h3>
                                     <p className='leading-6 tracking-[1px] text-[#fff]'>
-                                    "I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!"
+                                    &ldquo;I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!&ldquo;
                                     </p>
                                     <div className="flex items-center gap-2 mt-3">
                                         <Image src={Stars} className='w-7 h-7' alt=''/>
@@ -116,7 +116,7 @@ export const Testimonial = () => {
                                      SARAH L.
                                     </h3>
                                     <p className='leading-6 tracking-[1px] text-[#fff]'>
-                                    "I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!"
+                                    &ldquo;I had my interior detailing done at CarWash, and they did an incredible job! My car looks and smells like new again. The attention to detail and the level of cleanliness they achieved exceeded my expectations. Highly recommended!&ldquo;
                                     </p>
                                     <div className="flex items-center gap-2 mt-3">
                                         <Image src={Stars} className='w-7 h-7' alt=''/>

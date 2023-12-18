@@ -19,7 +19,6 @@ import Product2 from "../../public/FC Smart.png"
 import Product3 from "../../public/FC Boost.png"
 import { Button } from '@/components/Button';
 import  ProductCard  from '@/components/ProductCard';
-import getProducts from '@/actions/getProducts';
 import Gellery1 from "../../public/zit pic.png"
 import Gellery2 from "../../public/deco pic.webp"
 import Gellery3 from "../../public/gel pic.png"

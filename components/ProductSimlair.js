@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation';
 import usePreviewModal from '@/hooks/use-preview-modal';
 import useCart from '@/hooks/use-cart';
-import getSmilairProducts from '@/actions/getSimilairProduct';
 import { Expand, ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
 
@@ -25,20 +24,6 @@ const ProductSimlair =  ({ product }) => {
     //     product?.category?.id
     //   );
 
-      const fetchCategroy = async () => {
-        try{
-          const response = await getSmilairProducts(product?.category?.id);
-          setSimilair(response)
-        }
-        catch(error){
-          console.log(error);
-          
-        }
-      }
-      useEffect(() => {
-        fetchCategroy()
-      }, [])
-    
     //   console.log(suggestedProducts);
   const handleClick = (data) => {
     router.push(`/product/${data?.id}`);

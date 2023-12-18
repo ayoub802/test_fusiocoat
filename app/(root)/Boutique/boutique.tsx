@@ -8,12 +8,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Checkbox } from '@/components/ui/checkbox'
 import ProductCard from '@/components/ProductCard'
 import { useRouter } from 'next/navigation'
-import getProducts from '@/actions/getProducts'
 import usePreviewModal from '@/hooks/use-preview-modal'
 import useCart from '@/hooks/use-cart'
 import Image from 'next/image'
 import { Expand, ShoppingCart } from 'lucide-react'
-import getCategories from '@/actions/getCategories'
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
 import Currency from '@/components/currency'
 import { sortBy } from 'sort-by-typescript';
@@ -57,30 +55,7 @@ export default function BoutiqueCom() {
       const handleClick = (data: any) => {
         router.push(`/product/${data?.id}`);
       };
-      const fetchProduct = async () => {
-        try{
-          const response = await getProducts();
-          setProducts(response)
-        }
-        catch(error){
-          console.log(error);
-          
-        }
-      }
-      const fetchCategories = async () => {
-        try{
-          const response = await getCategories();
-          setCategories(response)
-        }
-        catch(error){
-          console.log(error);
-          
-        }
-      }
-      useEffect(() => {
-        fetchProduct();
-        fetchCategories()
-      }, [])
+
 
       
       const handleChange = (e: any) => {
