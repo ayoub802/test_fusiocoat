@@ -13,14 +13,14 @@ import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 // import { useStoreModal } from "@/hooks/use-store-modal";
 import { Button } from "@/components/ui/button";
-import { useProductModal } from "@/hooks/useproduct-modal";
+import { useProductModals } from "@/hooks/useproduct-modal";
 
 const formSchema = z.object({
   name: z.string().min(1),
 });
 
 export const ProductModal = () => {
-  const productModal = useProductModal();
+  const productModal = useProductModals();
   const router = useRouter();
   const toastMessage = 'Category created.';
   const [loading, setLoading] = useState(false);
