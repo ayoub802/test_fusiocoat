@@ -35,7 +35,7 @@ const ProductSimlair =  ({ product }) => {
     <div className="grid grid-cols-4 mx-auto gap-4">
         {
         similair?.length > 0 && similair.slice(0,4).map((item, index) => (
-            <div className="bg-white group cursor-pointer rounded-xl border border-gray-300 p-3 space-y-4">
+            <div key={index} className="bg-white group cursor-pointer rounded-xl border border-gray-300 p-3 space-y-4">
             {/* Image & actions */}
             <div key={index} className="aspect-square rounded-xl imgProduct bg-gray-100 relative">
             <Image 

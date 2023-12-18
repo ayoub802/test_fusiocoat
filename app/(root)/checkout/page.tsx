@@ -31,13 +31,7 @@ const Summary = () => {
     return total + item.quantity
   }, 0)
 
-  
-  useEffect(() => {
-    items.map((item: any)=> {
-      console.log("Quantity =>",item.quantity);
-      
-    })
-  },[]) 
+
 
   const onCheckout = async () => {
     try{
