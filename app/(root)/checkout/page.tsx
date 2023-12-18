@@ -66,8 +66,8 @@ const Summary = () => {
                 <div className="lg:col-span-7">
                 {cart.items.length === 0 && <p className="text-neutral-500">No items added to cart.</p>}
                 <ul>
-                    {cart.items.map((item) => (
-                        <li className="flex py-6 border-b">
+                    {cart.items.map((item, index) => (
+                        <li key={index} className="flex py-6 border-b">
                         <div className="relative h-24 w-24 rounded-md overflow-hidden sm:h-48 sm:w-48">
                             <Image
                             fill

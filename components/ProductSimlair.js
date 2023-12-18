@@ -37,7 +37,7 @@ const ProductSimlair =  ({ product }) => {
         similair?.length > 0 && similair.slice(0,4).map((item, index) => (
             <div className="bg-white group cursor-pointer rounded-xl border border-gray-300 p-3 space-y-4">
             {/* Image & actions */}
-            <div className="aspect-square rounded-xl imgProduct bg-gray-100 relative">
+            <div key={index} className="aspect-square rounded-xl imgProduct bg-gray-100 relative">
             <Image 
             onClick={() => handleClick(item)}
                 src={item.images?.[0]?.url} 
